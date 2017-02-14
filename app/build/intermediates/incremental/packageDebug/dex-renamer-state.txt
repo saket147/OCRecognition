@@ -1,0 +1,7 @@
+#Tue Feb 14 20:03:15 IST 2017
+base.0=/home/socket/OCRecognition-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b6c2cf6b50b1649cec59ccdc33076ea199e4000d
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/socket/OCRecognition-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ce449459ab19df48b42af1c20a442421a01ee279/classes.dex
+base.1=/home/socket/OCRecognition-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ce449459ab19df48b42af1c20a442421a01ee279
+file.0=/home/socket/OCRecognition-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b6c2cf6b50b1649cec59ccdc33076ea199e4000d/classes.dex
