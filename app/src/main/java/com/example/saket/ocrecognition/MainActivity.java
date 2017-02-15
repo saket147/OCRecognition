@@ -45,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //OCRTextView.setText("");
                 AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(MainActivity.this);
                 alertDialogBuilder.setTitle("Pictures Option");
                 alertDialogBuilder.setMessage("Select Picture Mode");
@@ -74,10 +73,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //init image
-        //image = BitmapFactory.decodeResource(getResources(), R.drawable.test_image);
         image = BitmapFactory.decodeResource(getResources(), R.drawable.test_image);
-        //initialize Tesseract API
         String language = "eng";
         datapath = getFilesDir() + "/tesseract/";
         mTess = new TessBaseAPI();
@@ -163,8 +159,6 @@ public class MainActivity extends AppCompatActivity {
                         imageView.setImageBitmap(image);
 
                     }
-                    /*image = (Bitmap) data.getExtras().get("data");
-                    imageView.setImageBitmap(image);*/
                 }
                 break;
         }
