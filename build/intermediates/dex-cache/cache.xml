@@ -3,20 +3,11 @@
 
     <item
         is-multidex="true"
-        jar="/home/socket/OCRecognition-master/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="/home/socket/OCRecognition-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_9357bda3138651df5ed40e883c28cc98aab45d77/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/socket/OCRecognition-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="644526a9af8b949e805604e0c95f95ab8ed7277b">
+        sha1="233ba1ddf4299315333030a7a56f6b2de664552d">
         <dex dex="/home/socket/OCRecognition-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ce449459ab19df48b42af1c20a442421a01ee279/classes.dex" />
     </item>
     <item
@@ -39,24 +30,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/socket/OCRecognition-master/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="/home/socket/OCRecognition-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_70bc36a7ad6d32ebc1523f46ec27677768c367dc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/socket/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="/home/socket/OCRecognition-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_b02c58c41146d48044ac29688130dfbc6851d060/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/socket/OCRecognition-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -75,30 +48,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/socket/OCRecognition-master/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="/home/socket/OCRecognition-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_e21dd36422498ae91c13de50c7824386228a6531/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/socket/OCRecognition-master/app/build/intermediates/exploded-aar/com.rmtheis/tess-two/5.4.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="921b1c4306b10e7de53574523eb7f7144bd0707f">
         <dex dex="/home/socket/OCRecognition-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.rmtheis-tess-two-5.4.1_b5aa034d0ef7ac8b9156b29feb9905f877cbfcbe/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/socket/OCRecognition-master/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="/home/socket/OCRecognition-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_3e06e9c4959d1fb8706a6cc1164a177b9882977a/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -115,8 +70,53 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="0ff659f25ec42c57b5ccdf8abf83c35d674fe7f7">
+        sha1="676b32b866d1f521865e84d98e96f24731573f2c">
         <dex dex="/home/socket/OCRecognition-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b6c2cf6b50b1649cec59ccdc33076ea199e4000d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/socket/OCRecognition-master/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/home/socket/OCRecognition-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_9357bda3138651df5ed40e883c28cc98aab45d77/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/socket/OCRecognition-master/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/home/socket/OCRecognition-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_70bc36a7ad6d32ebc1523f46ec27677768c367dc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/socket/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/home/socket/OCRecognition-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_b02c58c41146d48044ac29688130dfbc6851d060/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/socket/OCRecognition-master/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/home/socket/OCRecognition-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_e21dd36422498ae91c13de50c7824386228a6531/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/socket/OCRecognition-master/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/home/socket/OCRecognition-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_3e06e9c4959d1fb8706a6cc1164a177b9882977a/classes.dex" />
     </item>
 
 </items>

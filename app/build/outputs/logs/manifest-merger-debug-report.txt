@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:2:1-22:12
+ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:2:1-23:12
 	package
 		ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:3:5-46
 		INJECTED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml
@@ -17,12 +17,16 @@ uses-permission#android.permission.CAMERA
 ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:4:5-81
 	android:name
 		ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:4:22-62
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:5:5-96
+uses-feature#android.hardware.Camera
+ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:5:5-73
 	android:name
-		ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:5:22-77
+		ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:5:19-57
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:6:5-96
+	android:name
+		ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:6:22-77
 application
-ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:7:5-20:19
+ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:8:5-21:19
 MERGED from [com.android.support:appcompat-v7:25.1.0] /home/socket/OCRecognition-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:25.1.0] /home/socket/OCRecognition-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-fragment:25.1.0] /home/socket/OCRecognition-master/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:25:5-20
@@ -33,29 +37,29 @@ MERGED from [com.android.support:animated-vector-drawable:25.1.0] /home/socket/O
 MERGED from [com.android.support:support-vector-drawable:25.1.0] /home/socket/OCRecognition-master/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/AndroidManifest.xml:23:5-20
 MERGED from [com.android.support:support-compat:25.1.0] /home/socket/OCRecognition-master/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:11:9-41
 	android:supportsRtl
-		ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:12:9-35
 	android:allowBackup
-		ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:9:9-35
 	android:icon
-		ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:10:9-43
 	android:theme
-		ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:12:9-40
+		ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:13:9-40
 activity#com.example.saket.ocrecognition.MainActivity
-ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:13:9-19:20
+ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:14:9-20:20
 	android:name
-		ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:13:19-47
+		ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:14:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:14:13-18:29
+ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:15:17-69
+ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:15:25-66
+		ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:17:17-77
+ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:17:27-74
+		ADDED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml:18:27-74
 uses-sdk
 INJECTED from /home/socket/OCRecognition-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.1.0] /home/socket/OCRecognition-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/AndroidManifest.xml:21:5-23:78

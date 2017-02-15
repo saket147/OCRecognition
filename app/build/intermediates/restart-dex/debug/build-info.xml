@@ -5,47 +5,33 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="100511394421354"
+    timestamp="113844655352262"
     token="608550306576493893"
-    verifier="COMPATIBLE" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="68" />
+        duration="0" />
     <task
         name="instant-run-dex"
-        duration="19" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="31" />
+        duration="0" />
     <task
         name="verifier"
-        duration="1" />
+        duration="0" />
 
     <artifact
-        location="/home/socket/OCRecognition-master/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/home/socket/OCRecognition-master/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="100203597423677"
+        timestamp="113844655352262"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/socket/OCRecognition-master/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="100469679205144"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/socket/OCRecognition-master/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="100511394421354"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/home/socket/OCRecognition-master/app/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

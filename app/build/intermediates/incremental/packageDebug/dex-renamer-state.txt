@@ -1,4 +1,4 @@
-#Tue Feb 14 20:03:15 IST 2017
+#Wed Feb 15 15:58:34 IST 2017
 base.0=/home/socket/OCRecognition-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b6c2cf6b50b1649cec59ccdc33076ea199e4000d
 renamed.1=classes2.dex
 renamed.0=classes.dex

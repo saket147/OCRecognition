@@ -1,6 +1,8 @@
 package com.example.saket.ocrecognition;
 
 import android.net.Uri;
+import android.os.Environment;
+import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.app.AlertDialog;
@@ -19,6 +21,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -29,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
     String datapath = "";
     private static final int SELECT_PHOTO = 100;
     private static final int CLICK_PHOTO = 1888;
+    EditText OCRTextView;
+    private String pictureImagePath = "";
 
 
     @Override
@@ -39,13 +45,22 @@ public class MainActivity extends AppCompatActivity {
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //OCRTextView.setText("");
                 AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(MainActivity.this);
                 alertDialogBuilder.setTitle("Pictures Option");
                 alertDialogBuilder.setMessage("Select Picture Mode");
                 alertDialogBuilder.setPositiveButton("Camera", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
-                        Intent intent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
-                        startActivityForResult(intent,CLICK_PHOTO);
+                        String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+                        String imageFileName = timeStamp + ".jpg";
+                        File storageDir = Environment.getExternalStoragePublicDirectory(
+                                Environment.DIRECTORY_PICTURES);
+                        pictureImagePath = storageDir.getAbsolutePath() + "/" + imageFileName;
+                        File file = new File(pictureImagePath);
+                        Uri outputFileUri = Uri.fromFile(file);
+                        Intent cameraIntent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
+                        cameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, outputFileUri);
+                        startActivityForResult(cameraIntent, CLICK_PHOTO);
 
                     }
                 }).setNegativeButton("Gallery", new DialogInterface.OnClickListener() {
@@ -76,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
         String OCRresult = null;
         mTess.setImage(image);
         OCRresult = mTess.getUTF8Text();
-        EditText OCRTextView = (EditText) findViewById(R.id.OCRTextView);
+        OCRTextView = (EditText) findViewById(R.id.OCRTextView);
         OCRTextView.setText(OCRresult);
     }
 
@@ -141,8 +156,15 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case CLICK_PHOTO:
                 if (resultCode == RESULT_OK){
-                    image = (Bitmap) data.getExtras().get("data");
-                    imageView.setImageBitmap(image);
+                    File imgFile = new  File(pictureImagePath);
+                    if(imgFile.exists()){
+                        Bitmap myBitmap = BitmapFactory.decodeFile(imgFile.getAbsolutePath());
+                        image = myBitmap;
+                        imageView.setImageBitmap(image);
+
+                    }
+                    /*image = (Bitmap) data.getExtras().get("data");
+                    imageView.setImageBitmap(image);*/
                 }
                 break;
         }

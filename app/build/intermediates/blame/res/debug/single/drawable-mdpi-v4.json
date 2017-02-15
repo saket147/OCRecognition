@@ -168,12 +168,12 @@
         "source": "/home/socket/OCRecognition-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable-mdpi-v4/abc_list_focused_holo.9.png"
     },
     {
-        "merged": "/home/socket/OCRecognition-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png",
-        "source": "/home/socket/OCRecognition-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
         "merged": "/home/socket/OCRecognition-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png",
         "source": "/home/socket/OCRecognition-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/home/socket/OCRecognition-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "/home/socket/OCRecognition-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
         "merged": "/home/socket/OCRecognition-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
